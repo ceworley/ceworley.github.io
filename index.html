@@ -20,6 +20,7 @@ body{
 .caret {
   cursor: pointer;
   user-select: none; /* Prevent text selection */
+  font-size: 2vh;
 }
 /* Create the caret/arrow with a unicode, and style it */
 .caret::before {
@@ -27,6 +28,7 @@ body{
   color: black;
   display: inline-block;
   margin-right: 6px;
+  font-size: 2vh;
 }
 .erase::before {
   content: none;
@@ -36,14 +38,17 @@ body{
   color: green;
   display: inline-block;
   margin-right: 6px;
+  font-size: 2vh;
 }
 /* Hide the nested list */
 .nested {
   display: none;
+  font-size: 3vh;
 }
 /* Show the nested list when the user clicks on the caret/arrow (with JavaScript) */
 .active {
   display: block;
+  font-size: 2vh;
 }
 #myBtn1 {
   display: block;

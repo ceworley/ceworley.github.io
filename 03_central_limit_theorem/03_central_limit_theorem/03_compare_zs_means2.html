@@ -24,8 +24,8 @@ font-family: Arial, Helvetica, Sans;}
 <thead>
 <tr class="header">
 <th align="center">_ Type of fruit _</th>
-<th align="center">_ Population mean (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>μ</mi><annotation encoding="application/x-tex">\mu</annotation></semantics></math>) _</th>
-<th align="center">_ Population standard deviation (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>σ</mi><annotation encoding="application/x-tex">\sigma</annotation></semantics></math>) _</th>
+<th align="center">_ Population mean (<span class="math inline">\(\mu\)</span>) _</th>
+<th align="center">_ Population standard deviation (<span class="math inline">\(\sigma\)</span>) _</th>
 </tr>
 </thead>
 <tbody>
@@ -56,8 +56,8 @@ font-family: Arial, Helvetica, Sans;}
 <thead>
 <tr class="header">
 <th align="center">_ Type of fruit _</th>
-<th align="center">_ Sample size (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>n</mi><annotation encoding="application/x-tex">n</annotation></semantics></math>) _</th>
-<th align="center">_ Sample mean (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mover><mi>x</mi><mo accent="true">‾</mo></mover><annotation encoding="application/x-tex">\bar{x}</annotation></semantics></math>) _</th>
+<th align="center">_ Sample size (<span class="math inline">\(n\)</span>) _</th>
+<th align="center">_ Sample mean (<span class="math inline">\(\bar{x}\)</span>) _</th>
 </tr>
 </thead>
 <tbody>
@@ -85,32 +85,32 @@ font-family: Arial, Helvetica, Sans;}
 </table>
 <p>The population parameters and sample statistics can be <a href="data:text/csv;base64,ImZydWl0IiwibXUiLCJzaWdtYSIsIm4iLCJ4YmFyIgoiYXBwbGUiLDIwOCwxMSw0OSwyMTAuNQoicGluZWFwcGxlIiwxNjE3LDE3NiwxMjEsMTYwMAoiY29jb251dCIsNjYwLDU0LDI1LDYzOS43CiJwYXBheWEiLDU0NSw3NywxMDAsNTM3LjkK" download="fruit.csv" target="blank">downloaded as a csv</a>.</p>
 <p>For each sample, determine the mean’s standard score and the mean’s <a href="https://en.wikipedia.org/wiki/Cumulative_distribution_function" target="blank">cumulative probability</a> by assuming the requirements for the <a href="https://en.wikipedia.org/wiki/Central_limit_theorem" target="blank">central limit theorem</a> are met. Then determine which sample mean is most unusually large, most unusually small, most typically sized, and most unusually sized.</p>
-<p>The standard score of a sample mean: <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mover><mi>x</mi><mo accent="true">‾</mo></mover><mo>−</mo><mi>μ</mi></mrow><mrow><mi>σ</mi><mi>/</mi><msqrt><mi>n</mi></msqrt></mrow></mfrac></mrow><annotation encoding="application/x-tex">z = \frac{\bar{x}-\mu}{\sigma/\sqrt{n}}</annotation></semantics></math> Some people prefer to call this denominator <a href="https://en.wikipedia.org/wiki/Standard_error" target="blank">the standard error</a>. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext mathvariant="normal">standard error of mean</mtext><mo>=</mo><mtext mathvariant="normal">SEM</mtext><mo>=</mo><mfrac><mi>σ</mi><msqrt><mi>n</mi></msqrt></mfrac></mrow><annotation encoding="application/x-tex">\text{standard error of mean} = \text{SEM} = \frac{\sigma}{\sqrt{n}} </annotation></semantics></math> So the standard score (<math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score) of a sample mean can also be expressed as <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mover><mi>x</mi><mo accent="true">‾</mo></mover><mo>−</mo><mi>μ</mi></mrow><mtext mathvariant="normal">SEM</mtext></mfrac></mrow><annotation encoding="application/x-tex">z = \frac{\bar{x}-\mu}{\text{SEM}} </annotation></semantics></math></p>
+<p>The standard score of a sample mean: <span class="math display">\[z = \frac{\bar{x}-\mu}{\sigma/\sqrt{n}}\]</span> Some people prefer to call this denominator <a href="https://en.wikipedia.org/wiki/Standard_error" target="blank">the standard error</a>. <span class="math display">\[\text{standard error of mean} = \text{SEM} = \frac{\sigma}{\sqrt{n}} \]</span> So the standard score (<span class="math inline">\(z\)</span>-score) of a sample mean can also be expressed as <span class="math display">\[z = \frac{\bar{x}-\mu}{\text{SEM}} \]</span></p>
 <br/>
 <ol type="a">
 <li>
-<div id='Q' style='background: #AAAAFF'> Calculate a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score for the apple sample mean. (Round to the nearest hundredth.) </div>
+<div id='Q' style='background: #AAAAFF'> Calculate a <span class="math inline">\(z\)</span>-score for the apple sample mean. (Round to the nearest hundredth.) </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> What proportion of apple samples of size <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>49</mn></mrow><annotation encoding="application/x-tex">n=49</annotation></semantics></math> have a smaller mean than the apple sample? </div>
+<div id='Q' style='background: #AAAAFF'> What proportion of apple samples of size <span class="math inline">\(n=49\)</span> have a smaller mean than the apple sample? </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> Calculate a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score for the pineapple sample mean. (Round to the nearest hundredth.) </div>
+<div id='Q' style='background: #AAAAFF'> Calculate a <span class="math inline">\(z\)</span>-score for the pineapple sample mean. (Round to the nearest hundredth.) </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> What proportion of pineapple samples of size <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>121</mn></mrow><annotation encoding="application/x-tex">n=121</annotation></semantics></math> have a smaller mean than the pineapple sample? </div>
+<div id='Q' style='background: #AAAAFF'> What proportion of pineapple samples of size <span class="math inline">\(n=121\)</span> have a smaller mean than the pineapple sample? </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> Calculate a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score for the coconut sample mean. (Round to the nearest hundredth.) </div>
+<div id='Q' style='background: #AAAAFF'> Calculate a <span class="math inline">\(z\)</span>-score for the coconut sample mean. (Round to the nearest hundredth.) </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> What proportion of coconut samples of size <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>25</mn></mrow><annotation encoding="application/x-tex">n=25</annotation></semantics></math> have a smaller mean than the coconut sample? </div>
+<div id='Q' style='background: #AAAAFF'> What proportion of coconut samples of size <span class="math inline">\(n=25\)</span> have a smaller mean than the coconut sample? </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> Calculate a <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score for the papaya sample mean. (Round to the nearest hundredth.) </div>
+<div id='Q' style='background: #AAAAFF'> Calculate a <span class="math inline">\(z\)</span>-score for the papaya sample mean. (Round to the nearest hundredth.) </div>
 </li>
 <li>
-<div id='Q' style='background: #AAAAFF'> What proportion of papaya samples of size <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi><mo>=</mo><mn>100</mn></mrow><annotation encoding="application/x-tex">n=100</annotation></semantics></math> have a smaller mean than the papaya sample? </div>
+<div id='Q' style='background: #AAAAFF'> What proportion of papaya samples of size <span class="math inline">\(n=100\)</span> have a smaller mean than the papaya sample? </div>
 </li>
 <li>
 <div id='Q' style='background: #AAAAFF'> The apple sample mean is most unusually large. / The pineapple sample mean is most unusually large. / The coconut sample mean is most unusually large. / The papaya sample mean is most unusually large. </div>

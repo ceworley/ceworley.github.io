@@ -14,12 +14,12 @@ font-family: Arial, Helvetica, Sans;}
 <body>
 
 <small><i>solution_03_central_limit_theorem/03_central_limit_theorem/03_compare_zs_means_v3</i></small>
-<p>The formula to determine the <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score of a <strong>sample mean</strong> is the ratio with numerator the difference between measurement and population mean and denominator the standard error of the mean.</p>
-<p><math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mover><mi>x</mi><mo accent="true">‾</mo></mover><mo>−</mo><mi>μ</mi></mrow><mrow><mi>σ</mi><mi>/</mi><msqrt><mi>n</mi></msqrt></mrow></mfrac></mrow><annotation encoding="application/x-tex">z = \frac{\bar{x}-\mu}{\sigma/\sqrt{n}} </annotation></semantics></math></p>
-<p>The highest <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score (furthest right on <a href="https://en.wikipedia.org/wiki/Number_line" target="blank">number line</a>) corresponds to the most unusually large sample mean.</p>
-<p>The smallest <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score (furthest left on <a href="https://en.wikipedia.org/wiki/Number_line" target="blank">number line</a>) corresponds to the most unusually small sample mean.</p>
-<p>The smallest <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score corresponds to the most usually sized sample mean.</p>
-<p>The largest <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math>-score corresponds to the most unusually sized sample mean.</p>
+<p>The formula to determine the <span class="math inline">\(z\)</span>-score of a <strong>sample mean</strong> is the ratio with numerator the difference between measurement and population mean and denominator the standard error of the mean.</p>
+<p><span class="math display">\[z = \frac{\bar{x}-\mu}{\sigma/\sqrt{n}} \]</span></p>
+<p>The highest <span class="math inline">\(z\)</span>-score (furthest right on <a href="https://en.wikipedia.org/wiki/Number_line" target="blank">number line</a>) corresponds to the most unusually large sample mean.</p>
+<p>The smallest <span class="math inline">\(z\)</span>-score (furthest left on <a href="https://en.wikipedia.org/wiki/Number_line" target="blank">number line</a>) corresponds to the most unusually small sample mean.</p>
+<p>The smallest <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <span class="math inline">\(z\)</span>-score corresponds to the most usually sized sample mean.</p>
+<p>The largest <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <span class="math inline">\(z\)</span>-score corresponds to the most unusually sized sample mean.</p>
 <h3 id="spreadsheet">Spreadsheet:</h3>
 <p>By using the formulas, you should get a spreadsheet like the one displayed here:</p>
 <div class="figure">
@@ -58,40 +58,40 @@ fruit[abs(z)==max(abs(z))]</code></pre>
 <br/>
 <ol type="a">
 <li>
-<div id='A' style='background: #FFAAAA'> We use the formula for calculating the plum sample-mean <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>109.5</mn><mo>−</mo><mn>110</mn></mrow><mrow><mn>9</mn><mi>/</mi><msqrt><mn>81</mn></msqrt></mrow></mfrac><mo>=</mo><mo>−</mo><mn>0.5</mn></mrow><annotation encoding="application/x-tex">z = \frac{109.5-110}{9/\sqrt{81}} = -0.5 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> We use the formula for calculating the plum sample-mean <span class="math inline">\(z\)</span> score. <span class="math display">\[z = \frac{109.5-110}{9/\sqrt{81}} = -0.5 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> Use the <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> table to find the cumulative probability. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Z</mi><mo>&lt;</mo><mo>−</mo><mn>0.5</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0.3085</mn></mrow><annotation encoding="application/x-tex">P(Z&lt;-0.5) = 0.3085 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> Use the <span class="math inline">\(z\)</span> table to find the cumulative probability. <span class="math display">\[P(Z&lt;-0.5) = 0.3085 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We use the formula for calculating the kiwi sample-mean <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>104.7</mn><mo>−</mo><mn>104</mn></mrow><mrow><mn>11</mn><mi>/</mi><msqrt><mn>121</mn></msqrt></mrow></mfrac><mo>=</mo><mn>0.7</mn></mrow><annotation encoding="application/x-tex">z = \frac{104.7-104}{11/\sqrt{121}} = 0.7 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> We use the formula for calculating the kiwi sample-mean <span class="math inline">\(z\)</span> score. <span class="math display">\[z = \frac{104.7-104}{11/\sqrt{121}} = 0.7 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> Use the <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> table to find the cumulative probability. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Z</mi><mo>&lt;</mo><mn>0.7</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0.758</mn></mrow><annotation encoding="application/x-tex">P(Z&lt;0.7) = 0.758 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> Use the <span class="math inline">\(z\)</span> table to find the cumulative probability. <span class="math display">\[P(Z&lt;0.7) = 0.758 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We use the formula for calculating the grapefruit sample-mean <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>290.6</mn><mo>−</mo><mn>290</mn></mrow><mrow><mn>37</mn><mi>/</mi><msqrt><mn>36</mn></msqrt></mrow></mfrac><mo>=</mo><mn>0.1</mn></mrow><annotation encoding="application/x-tex">z = \frac{290.6-290}{37/\sqrt{36}} = 0.1 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> We use the formula for calculating the grapefruit sample-mean <span class="math inline">\(z\)</span> score. <span class="math display">\[z = \frac{290.6-290}{37/\sqrt{36}} = 0.1 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> Use the <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> table to find the cumulative probability. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Z</mi><mo>&lt;</mo><mn>0.1</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0.5398</mn></mrow><annotation encoding="application/x-tex">P(Z&lt;0.1) = 0.5398 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> Use the <span class="math inline">\(z\)</span> table to find the cumulative probability. <span class="math display">\[P(Z&lt;0.1) = 0.5398 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We use the formula for calculating the lemon sample-mean <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>z</mi><mo>=</mo><mfrac><mrow><mn>124.1</mn><mo>−</mo><mn>125</mn></mrow><mrow><mn>13</mn><mi>/</mi><msqrt><mn>25</mn></msqrt></mrow></mfrac><mo>=</mo><mo>−</mo><mn>0.35</mn></mrow><annotation encoding="application/x-tex">z = \frac{124.1-125}{13/\sqrt{25}} = -0.35 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> We use the formula for calculating the lemon sample-mean <span class="math inline">\(z\)</span> score. <span class="math display">\[z = \frac{124.1-125}{13/\sqrt{25}} = -0.35 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> Use the <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> table to find the cumulative probability. <math display="block" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi><mo stretchy="false" form="prefix">(</mo><mi>Z</mi><mo>&lt;</mo><mo>−</mo><mn>0.35</mn><mo stretchy="false" form="postfix">)</mo><mo>=</mo><mn>0.3632</mn></mrow><annotation encoding="application/x-tex">P(Z&lt;-0.35) = 0.3632 </annotation></semantics></math> </div>
+<div id='A' style='background: #FFAAAA'> Use the <span class="math inline">\(z\)</span> table to find the cumulative probability. <span class="math display">\[P(Z&lt;-0.35) = 0.3632 \]</span> </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We determine the maximum <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>0.7</mn><annotation encoding="application/x-tex">0.7</annotation></semantics></math>, which belongs to the kiwi. / . / . / . </div>
+<div id='A' style='background: #FFAAAA'> We determine the maximum <span class="math inline">\(z\)</span> score is <span class="math inline">\(0.7\)</span>, which belongs to the kiwi. / . / . / . </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We determine the minimum <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>−</mo><mn>0.5</mn></mrow><annotation encoding="application/x-tex">-0.5</annotation></semantics></math>, which belongs to the plum. / . / . / . </div>
+<div id='A' style='background: #FFAAAA'> We determine the minimum <span class="math inline">\(z\)</span> score is <span class="math inline">\(-0.5\)</span>, which belongs to the plum. / . / . / . </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We determine the minimum <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>0.1</mn><annotation encoding="application/x-tex">0.1</annotation></semantics></math>, which belongs to the grapefruit. / . / . / . </div>
+<div id='A' style='background: #FFAAAA'> We determine the minimum <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <span class="math inline">\(z\)</span> score is <span class="math inline">\(0.1\)</span>, which belongs to the grapefruit. / . / . / . </div>
 </li>
 <li>
-<div id='A' style='background: #FFAAAA'> We determine the maximum <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mi>z</mi><annotation encoding="application/x-tex">z</annotation></semantics></math> score is <math display="inline" xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mn>0.7</mn><annotation encoding="application/x-tex">0.7</annotation></semantics></math>, which belongs to the kiwi. / . / . / . </div>
+<div id='A' style='background: #FFAAAA'> We determine the maximum <a href="https://en.wikipedia.org/wiki/Absolute_value" target="blank"><strong>absolute</strong></a> <span class="math inline">\(z\)</span> score is <span class="math inline">\(0.7\)</span>, which belongs to the kiwi. / . / . / . </div>
 </li>
 </ol>
 <br/>

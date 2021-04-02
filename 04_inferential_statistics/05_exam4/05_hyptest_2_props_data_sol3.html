@@ -116,10 +116,12 @@ ns1 = sum(x1) #number of successes in sample 1
 ns2 = sum(x2)
 prop.test(c(ns1,ns2),c(n1,n2))</code></pre>
 <pre><code>## 
-##  2-sample test for equality of proportions with continuity correction
+##  2-sample test for equality of
+##  proportions with continuity correction
 ## 
 ## data:  c(ns1, ns2) out of c(n1, n2)
-## X-squared = 2.6134, df = 1, p-value = 0.106
+## X-squared = 2.6134, df = 1, p-value =
+## 0.106
 ## alternative hypothesis: two.sided
 ## 95 percent confidence interval:
 ##  -0.40534913  0.03040846
@@ -128,11 +130,13 @@ prop.test(c(ns1,ns2),c(n1,n2))</code></pre>
 ## 0.3023256 0.4897959</code></pre>
 <pre class="text"><code>prop.test(c(ns1,ns2),c(n1,n2),correct=F)</code></pre>
 <pre><code>## 
-##  2-sample test for equality of proportions without continuity
+##  2-sample test for equality of
+##  proportions without continuity
 ##  correction
 ## 
 ## data:  c(ns1, ns2) out of c(n1, n2)
-## X-squared = 3.3478, df = 1, p-value = 0.0673
+## X-squared = 3.3478, df = 1, p-value =
+## 0.0673
 ## alternative hypothesis: two.sided
 ## 95 percent confidence interval:
 ##  -0.383517142  0.008576468

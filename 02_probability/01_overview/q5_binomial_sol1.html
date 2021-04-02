@@ -10,6 +10,7 @@
 <body>
 
 <small><i>solution_02_probability/01_overview/q5_binomial_v1</i></small>
+<p><a href="https://vimeo.com/531918396" target="_blank">video</a></p>
 <p>This is a binomial distribution, so use the appropriate formulas. <span class="math display">\[\mathbb{P}[X=x] ~=~ _n\text{C}_x \cdot p^x(1-p)^{n-x}\]</span> where <span class="math inline">\(p\)</span> is the probability of success on each trial, <span class="math inline">\(x\)</span> is a specific number of successes, <span class="math inline">\(n\)</span> is the number of trials, and <span class="math inline">\(C\)</span> is the combinations operator (so that <span class="math inline">\({_n}C_x = \frac{n!}{(n-x)! \, x!}\)</span>). Some people prefer to also use <span class="math inline">\(q\)</span> as the probability of failure, such that <span class="math inline">\(q=1-p\)</span>. <span class="math display">\[\mathbb{P}[X=x] ~=~ _n\text{C}_x \cdot p^xq^{n-x}\]</span></p>
 <p>You will also need to add <a href="https://en.wikipedia.org/wiki/Mutual_exclusivity" target="blank">mutually exclusive</a> probabilities (when multiple <span class="math inline">\(x\)</span>-values satisfy the probability’s condition). It is also helpful to be aware of the <a href="https://en.wikipedia.org/wiki/Complementary_event#Complement_rule" target="blank">complement rule</a>.</p>
 <br/>

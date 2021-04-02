@@ -10,7 +10,8 @@
 <body>
 
 <small><i>solution_01_data_basics/05_spread/02_get_MAD_v3</i></small>
-<p>(4.8745455)</p>
+<p>(ANS=4.8745455)</p>
+<p><a href="https://vimeo.com/531907521" target="_blank">video</a></p>
 <p>First, determine the mean of the sample.</p>
 <p><span class="math display">\[\bar{x} = \frac{\sum \mathbf{x}}{n} =63.92 \]</span></p>
 <p>Determine the absolute deviations (distances from <span class="math inline">\(\bar{x}\)</span>).</p>
@@ -217,13 +218,16 @@ deviations = x-xbar
 AbsDev = abs(deviations)
 MAD = mean(AbsDev)
 x</code></pre>
-<pre><code>##  [1] 61.75 55.43 60.84 67.31 72.54 66.46 71.90 66.89 53.72 61.05 65.23</code></pre>
+<pre><code>##  [1] 61.75 55.43 60.84 67.31 72.54 66.46 71.90
+##  [8] 66.89 53.72 61.05 65.23</code></pre>
 <pre class="text"><code>xbar</code></pre>
 <pre><code>## [1] 63.92</code></pre>
 <pre class="text"><code>deviations</code></pre>
-<pre><code>##  [1]  -2.17  -8.49  -3.08   3.39   8.62   2.54   7.98   2.97 -10.20  -2.87   1.31</code></pre>
+<pre><code>##  [1]  -2.17  -8.49  -3.08   3.39   8.62   2.54
+##  [7]   7.98   2.97 -10.20  -2.87   1.31</code></pre>
 <pre class="text"><code>AbsDev</code></pre>
-<pre><code>##  [1]  2.17  8.49  3.08  3.39  8.62  2.54  7.98  2.97 10.20  2.87  1.31</code></pre>
+<pre><code>##  [1]  2.17  8.49  3.08  3.39  8.62  2.54  7.98
+##  [8]  2.97 10.20  2.87  1.31</code></pre>
 <pre class="text"><code>MAD</code></pre>
 <pre><code>## [1] 4.874545</code></pre>
 <br/>

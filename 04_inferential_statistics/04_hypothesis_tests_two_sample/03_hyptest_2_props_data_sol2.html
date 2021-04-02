@@ -10,6 +10,7 @@
 <body>
 
 <small><i>solution_04_inferential_statistics/04_hypothesis_tests_two_sample/03_hyptest_2_props_data_v2</i></small>
+<p><a href="https://vimeo.com/531954640" target="_blank">video</a></p>
 <p>There are many ways to do this problem. I will show the following:</p>
 <ul>
 <li>“By hand”</li>
@@ -116,10 +117,12 @@ ns1 = sum(x1) #number of successes in sample 1
 ns2 = sum(x2)
 prop.test(c(ns1,ns2),c(n1,n2))</code></pre>
 <pre><code>## 
-##  2-sample test for equality of proportions with continuity correction
+##  2-sample test for equality of
+##  proportions with continuity correction
 ## 
 ## data:  c(ns1, ns2) out of c(n1, n2)
-## X-squared = 1.9018, df = 1, p-value = 0.1679
+## X-squared = 1.9018, df = 1, p-value =
+## 0.1679
 ## alternative hypothesis: two.sided
 ## 95 percent confidence interval:
 ##  -0.38741241  0.05791402
@@ -128,11 +131,13 @@ prop.test(c(ns1,ns2),c(n1,n2))</code></pre>
 ## 0.4390244 0.6037736</code></pre>
 <pre class="text"><code>prop.test(c(ns1,ns2),c(n1,n2),correct=F)</code></pre>
 <pre><code>## 
-##  2-sample test for equality of proportions without continuity
+##  2-sample test for equality of
+##  proportions without continuity
 ##  correction
 ## 
 ## data:  c(ns1, ns2) out of c(n1, n2)
-## X-squared = 2.5201, df = 1, p-value = 0.1124
+## X-squared = 2.5201, df = 1, p-value =
+## 0.1124
 ## alternative hypothesis: two.sided
 ## 95 percent confidence interval:
 ##  -0.36578333  0.03628494

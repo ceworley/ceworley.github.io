@@ -10,6 +10,7 @@
 <body>
 
 <small><i>solution_04_inferential_statistics/04_hypothesis_tests_two_sample/02_hyptest_2_means_data_v3</i></small>
+<p><a href="https://vimeo.com/531954367" target="_blank">video</a></p>
 <p>To do this by hand, you first calculate the sample statistics. <span class="math display">\[n_1 = 26\]</span> <span class="math display">\[n_2 = 19\]</span> <span class="math display">\[\bar{x}_1 = 259\]</span> <span class="math display">\[\bar{x}_2 = 270.4\]</span> <span class="math display">\[s_1 = 13.6\]</span> <span class="math display">\[s_2 = 19.1\]</span> <span class="math display">\[|t| = 2.23\]</span> <span class="math display">\[\text{df} = 30.774\]</span> You will get quite close if you round df down (<a href="https://en.wikipedia.org/wiki/Floor_and_ceiling_functions" target="blank">floor</a>).</p>
 <p>Then, using a computer application or a <span class="math inline">\(t\)</span> table, you should be able to determine the following probabilities (using interpolation to estimate if using <span class="math inline">\(t\)</span> table). <span class="math display">\[P(T&lt;2.23) = 0.9836 \]</span> <span class="math display">\[P(|T|&gt;2.23) = 0.0329 \]</span> <span class="math display">\[p\text{-value} = 0.0329 \]</span></p>
 <h3 id="spreadsheet">Spreadsheet</h3>
@@ -26,7 +27,8 @@ t.test(x1,x2)</code></pre>
 ##  Welch Two Sample t-test
 ## 
 ## data:  x1 and x2
-## t = -2.234, df = 30.774, p-value = 0.03289
+## t = -2.234, df = 30.774, p-value =
+## 0.03289
 ## alternative hypothesis: true difference in means is not equal to 0
 ## 95 percent confidence interval:
 ##  -21.8769362  -0.9922945
@@ -44,7 +46,8 @@ t.test(x1,x2)</code></pre>
 ##  Welch Two Sample t-test
 ## 
 ## data:  x1 and x2
-## t = -2.234, df = 30.774, p-value = 0.03289
+## t = -2.234, df = 30.774, p-value =
+## 0.03289
 ## alternative hypothesis: true difference in means is not equal to 0
 ## 95 percent confidence interval:
 ##  -21.8769362  -0.9922945

@@ -11,6 +11,7 @@
 
 <small><i>solution_01_data_basics/05_spread/15_get_SD_prop_v3</i></small>
 <p>(ANS=0.4974937)</p>
+<p><a href="https://vimeo.com/531911409" target="_blank">video</a></p>
 <p>First, determine the mean of the sample. Remember, if a sample is all 0s and 1s, then the sample’s mean is the same as the sample proportion (<span class="math inline">\(\hat{p}\)</span>).</p>
 <p><span class="math display">\[\hat{p} = \bar{w} = \frac{\sum \mathbf{w}}{n} =0.55 \]</span></p>
 <p>Determine the squared deviations (squared distances from <span class="math inline">\(\hat{p}\)</span>).</p>
@@ -356,11 +357,14 @@ w</code></pre>
 <pre class="text"><code>phat</code></pre>
 <pre><code>## [1] 0.55</code></pre>
 <pre class="text"><code>deviations</code></pre>
-<pre><code>##  [1]  0.45  0.45 -0.55 -0.55 -0.55 -0.55  0.45 -0.55  0.45  0.45 -0.55  0.45
-## [13]  0.45  0.45 -0.55  0.45  0.45 -0.55 -0.55  0.45</code></pre>
+<pre><code>##  [1]  0.45  0.45 -0.55 -0.55 -0.55 -0.55  0.45
+##  [8] -0.55  0.45  0.45 -0.55  0.45  0.45  0.45
+## [15] -0.55  0.45  0.45 -0.55 -0.55  0.45</code></pre>
 <pre class="text"><code>sqrdev</code></pre>
-<pre><code>##  [1] 0.2025 0.2025 0.3025 0.3025 0.3025 0.3025 0.2025 0.3025 0.2025 0.2025 0.3025
-## [12] 0.2025 0.2025 0.2025 0.3025 0.2025 0.2025 0.3025 0.3025 0.2025</code></pre>
+<pre><code>##  [1] 0.2025 0.2025 0.3025 0.3025 0.3025 0.3025
+##  [7] 0.2025 0.3025 0.2025 0.2025 0.3025 0.2025
+## [13] 0.2025 0.2025 0.3025 0.2025 0.2025 0.3025
+## [19] 0.3025 0.2025</code></pre>
 <pre class="text"><code>VAR</code></pre>
 <pre><code>## [1] 0.2475</code></pre>
 <pre class="text"><code>SD</code></pre>

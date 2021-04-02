@@ -10,6 +10,7 @@
 <body>
 
 <small><i>solution_03_central_limit_theorem/03_central_limit_theorem/03_compare_zs_means_v3</i></small>
+<p><a href="https://vimeo.com/531938648" target="_blank">video</a></p>
 <p>The formula to determine the <span class="math inline">\(z\)</span>-score of a <strong>sample mean</strong> is the ratio with numerator the difference between measurement and population mean and denominator the standard error of the mean.</p>
 <p><span class="math display">\[z = \frac{\bar{x}-\mu}{\sigma/\sqrt{n}} \]</span></p>
 <p>The highest <span class="math inline">\(z\)</span>-score (furthest right on <a href="https://en.wikipedia.org/wiki/Number_line" target="blank">number line</a>) corresponds to the most unusually large sample mean.</p>
@@ -34,11 +35,16 @@ SEM = sigma/sqrt(n)
 z = round( (xbar-mu)/SEM ,2)
 cum_prob = round( pnorm(z) ,4)
 data.frame(data,SEM,z,cum_prob,abs(z))</code></pre>
-<pre><code>##        fruit  mu sigma   n  xbar      SEM     z cum_prob abs.z.
-## 1       plum 110     9  81 109.5 1.000000 -0.50   0.3085   0.50
-## 2       kiwi 104    11 121 104.7 1.000000  0.70   0.7580   0.70
-## 3 grapefruit 290    37  36 290.6 6.166667  0.10   0.5398   0.10
-## 4      lemon 125    13  25 124.1 2.600000 -0.35   0.3632   0.35</code></pre>
+<pre><code>##        fruit  mu sigma   n  xbar      SEM
+## 1       plum 110     9  81 109.5 1.000000
+## 2       kiwi 104    11 121 104.7 1.000000
+## 3 grapefruit 290    37  36 290.6 6.166667
+## 4      lemon 125    13  25 124.1 2.600000
+##       z cum_prob abs.z.
+## 1 -0.50   0.3085   0.50
+## 2  0.70   0.7580   0.70
+## 3  0.10   0.5398   0.10
+## 4 -0.35   0.3632   0.35</code></pre>
 <pre class="text"><code># Most unusually large
 fruit[z==max(z)]</code></pre>
 <pre><code>## [1] &quot;kiwi&quot;</code></pre>

@@ -5046,7 +5046,17 @@ Enter either the boundary or the probability to calculate the other.<br>
 <h3>Output: statement and visualization</h3>
 <div id="statement">P(T<0) = 0.5</div>
 
+<h5>Density visualization</h5>
 <div id="density"></div>
+
+<div id="description">The dotted line represents the <a href="https://en.wikipedia.org/wiki/Normal_distribution#Standard_normal_distribution">standard normal distribution's density<a>. 
+The solid line represents the T distribution's density. Notice the T distribution has fatter tails: 
+more density on the sides and less density in the middle. This additional spread occurs when the
+standard error is estimated (not known exactly) from the sample, and thus there is more possibility for
+the sample statistic to be far from the population parameter (because the standard error may be larger than estimated).
+Notice with larger samples, the estimated standard error is more certain, so the T distribution aligns with the standard normal distribution.
+</div>
+
 
 <script type="text/javascript">
 function reset(){
@@ -5250,79 +5260,6 @@ function draw(t1,t2,twotail=false){
 };
 
 draw(-4,0);
-
-//  const pol1 = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-// var pnts = ""
-// for(z=-3;z<=3.05;z+=0.1){
-//	var x = z*5*w+15*w;
-//	var y = 8*w-jStat.studentt.cdf(z,df)*20*w;
-//	pnts = pnts+x+","+y+" ";
-//}
-// pol1.setAttribute("points", pnts);
-// pol1.setAttribute("fill", "none");
-// pol1.setAttribute("stroke","black");
-// pol1.setAttribute("stroke-width","2");
-// svg1.appendChild(pol1);
-// for(var z=-3;z<=3.1;z++){
-//	var txt1 = document.createElementNS("http://www.w3.org/2000/svg","text");
-//	txt1.setAttribute("x",z*5*w+15*w);
-//	txt1.setAttribute("y",11.5*w);
-//	txt1.setAttribute("text-anchor","middle")
-//	txt1.appendChild(document.createTextNode(z));
-// 	svg1.appendChild(txt1);
-// 	var ply = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-//	ply.setAttribute("points",""+(z*5*w+15*w)+","+8.4*w+" "+(z*5*w+15*w)+","+8*w);
-//	ply.setAttribute("fill","none");
-//	ply.setAttribute("stroke","#000000");
-// pol1.setAttribute("stroke-width","1");
-//	svg1.appendChild(ply);
-// }
-//var txt1 = document.createElementNS("http://www.w3.org/2000/svg","text");
-//txt1.setAttribute("x",15*w);
-//txt1.setAttribute("y",12.2*w);
-//txt1.setAttribute("text-anchor","middle")
-//txt1.appendChild(document.createTextNode("z"));
-//svg1.appendChild(txt1);
-//svg1.id = "viz";
-//document.getElementById("density").appendChild(svg1);
-//
-//function drawA(z1,z2){
-//	z1 = Math.max(-3,z1);
-//	z2 = Math.min(3,z2);
-//	svg = document.getElementById("viz");
-//	var w = 20;
-//	var pl1 = document.createElementNS("http://www.w3.org/2000/svg","polyline");
-//	var p1 = pnorm(z1);
-//	var p2 = pnorm(z2);
-//	var x1 = z1*5*w+15*w;
-//	var x2 = z2*5*w+15*w;
-//	var y0 = 8*w;
-//	var y1 = 8*w-dnorm(z1)*20*w;
-//	var y2 = 8*w-dnorm(z2)*20*w;
-//	var pnts = ""+x1+","+y0+" ";
-//	for(var zz=z1;zz<z2;zz+=0.1){
-//		var x = zz*5*w+15*w;
-//		var y = 8*w-dnorm(zz)*20*w;
-//		pnts = pnts+x+","+y+" ";
-//	}
-//	pnts = pnts+x2+","+y2+" "+x2+","+y0;
-// 	pl1.setAttribute("points", pnts);
-// 	pl1.setAttribute("id","fil");
-// 	pl1.setAttribute("fill", "#bb000088");
-// 	pl1.setAttribute("stroke","none");
-// 	svg.appendChild(pl1);
-//}
-//
-//function erasefill(){
-//	plold = document.getElementById("fil");
-//	if(plold != null){
-//		plold.parentNode.removeChild(plold);
-//	}
-//	plold = document.getElementById("fil");
-//	if(plold != null){
-//		plold.parentNode.removeChild(plold);
-//	}
-//}
 </script>
 
 </body>

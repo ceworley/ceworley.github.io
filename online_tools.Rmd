@@ -1,0 +1,14 @@
+---
+output: html_document
+---
+
+# Online statistics tools
+
+I have written some open-source tools in stand-alone files (html+javascript). These can operate in most browsers, but I'd recommend firefox (why don't other browsers implement MathML?!).
+
+* [Standard normal distribution calculator](sn.html)
+* [Normal distribution calculator](normal.html)
+* [T distribution calculator](t.html)
+* [Central-limit-theorem calculator](clt.html)
+
+

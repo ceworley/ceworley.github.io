@@ -1,0 +1,15 @@
+---
+output: html_document
+---
+
+# Chad Worley
+
+Hello! Welcome to my index page. I have a wide range of interests that I hope to link from here.
+
+My largest github project is [statqs](https://ceworley.github.io/statqs): randomly-enumerated introductory-statistics questions with [online tools](online_tools.html) and [videos](https://vimeo.com/chadworley).
+
+
+
+![Picture of me at my sister's wedding that I bike-toured across the US to reach](pics/me.JPG)
+
+

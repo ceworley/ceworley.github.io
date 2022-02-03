@@ -8,6 +8,17 @@ Hello! Welcome to my index page. I have a wide range of interests that I hope to
 
 My largest github project is [statqs](https://ceworley.github.io/statqs): randomly-enumerated introductory-statistics questions with [online tools](online_tools.html) and [videos](https://vimeo.com/chadworley).
 
+Here are some links to my favorite game-theory explorations:
+
+* [Simultaneous duels](duel.html){target="blank"}
+* [Simultaneous poker](simpok_game.html){target="blank"}
+* [HORSE](https://www.youtube.com/watch?v=5BavFoN_sz4){target="blank"}
+
+A while ago I made some Blender tutorials (my most watched videos)
+
+* [Making a cake](https://www.youtube.com/watch?v=79BB2pjRsJg){target="blank"}
+* [Making a Depth Map](https://www.youtube.com/watch?v=gPwdLOSpMUA){target="blank"}
+
 
 
 ![Picture of me at my sister's wedding that I bike-toured across the US to reach](pics/me.JPG)

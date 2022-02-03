@@ -1,20 +1,23 @@
 ---
+title: "Chad Worley"
 output: html_document
 ---
-
-# Chad Worley
 
 Hello! Welcome to my index page. I have a wide range of interests that I hope to link from here.
 
 My largest github project is [statqs](https://ceworley.github.io/statqs): randomly-enumerated introductory-statistics questions with [online tools](online_tools.html) and [videos](https://vimeo.com/chadworley).
 
-Here are some links to my favorite game-theory explorations:
+Here are some links to my favorite mathematical/STEM explorations:
 
 * [Simultaneous duels](duel.html){target="blank"}
 * [Simultaneous poker](simpok_game.html){target="blank"}
 * [HORSE](https://www.youtube.com/watch?v=5BavFoN_sz4){target="blank"}
+* [Transit photometry](transit.pdf){target="blank"}
+* [Gray-Scott Reaction-Diffusion on a Growing Domain](AlgArt.pdf){target="blank"}
+* [Arithmetic Introduction](arith.pdf){target="blank"}
+* [Scientific Crossword](xword.png){target="blank"}
 
-A while ago I made some Blender tutorials (my most watched videos)
+I am handy with Blender (3D animation):
 
 * [Making a cake](https://www.youtube.com/watch?v=79BB2pjRsJg){target="blank"}
 * [Making a Depth Map](https://www.youtube.com/watch?v=gPwdLOSpMUA){target="blank"}
@@ -23,4 +26,11 @@ A while ago I made some Blender tutorials (my most watched videos)
 
 ![Picture of me at my sister's wedding that I bike-toured across the US to reach](pics/me.JPG)
 
+
+My poem in iambic polymeter:
+
+> Against the gentle scent of afternoon  
+> reflections melt, collapse. Above, a loon,  
+> sullen perhaps, laments a lover's tune  
+> that lasts all eve and features the half moon.
 
